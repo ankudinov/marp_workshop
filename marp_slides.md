@@ -5,9 +5,11 @@ theme: default
 class: invert
 
 ---
-# My First Slide
+# How to Build Marp Slides
 
 Hello World!
+
+![bg](img/pexels-renato-rocca-9279669.jpg)
 
 ---
 
@@ -32,3 +34,20 @@ author: Petr Ankudinov
 theme: default
 class: invert
 ```
+
+---
+
+# To Get Free Pictures
+
+![bg right](img/pexels-adrien-olichon-2823459.jpg)
+
+Use:
+
+- [Pexels](https://www.pexels.com/)
+- [Unsplash](https://unsplash.com/)
+
+How to work with images:
+
+- [image syntax](https://marpit.marp.app/image-syntax)
+
+If you can - add a reference to the author or collection.
