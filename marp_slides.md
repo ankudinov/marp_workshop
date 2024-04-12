@@ -18,6 +18,16 @@ style: |
   pre {
     background: linear-gradient(to top, #1e3744, #301B29);
   }
+  .columns {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1rem;
+  }
+  .columns3 {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+  }
 
 ---
 # How to Build Marp Slides
@@ -213,3 +223,48 @@ footer: 'April 2024'
 footer: '![h:20](https://www.arista.com/assets/images/logo/Arista_Logo.png)'
 -->
 ```
+
+---
+
+# 2 Columns
+
+<div class="columns">
+<div>
+
+- test
+- test
+
+</div>
+<div>
+
+```json
+{
+  "a": 1,
+  "b": 2
+}
+```
+
+</div>
+
+---
+
+# 3 columns
+
+<div class="columns3">
+<div>
+
+- test
+- test
+
+</div>
+<div>
+
+abc
+
+</div>
+<div>
+
+![h:300 sepia](img/pexels-adrien-olichon-2823459.jpg)
+
+</div>
+</div>
