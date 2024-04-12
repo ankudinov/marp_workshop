@@ -320,3 +320,15 @@ gitGraph
 - [Mermaid CLI](https://github.com/mermaid-js/mermaid-cli)
 
 ![bg left fit](img/mermaid.png)
+
+---
+
+# Carbon
+
+Add carbon snippet.
+
+![bg right fit opacity:0.9](img/marp-init.md.png)
+
+---
+
+# Q&A
