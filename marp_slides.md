@@ -268,3 +268,19 @@ abc
 
 </div>
 </div>
+
+---
+
+# Font Size
+
+<style scoped>section {font-size: 14px;}</style>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus hendrerit aliquet sem a faucibus. Nam et viverra purus. Duis quis fringilla libero. Duis et tortor pharetra leo bibendum mollis. Integer vel felis lectus. Phasellus varius placerat facilisis. Phasellus placerat orci quis eros elementum ornare. Proin quis odio eu lorem gravida condimentum nec vel nisi. Pellentesque euismod est eget pharetra rhoncus. Donec eget consectetur nibh, ut fringilla nisl. Nulla facilisi.
+
+Maecenas sit amet egestas magna. Suspendisse aliquet eget ligula non suscipit. Suspendisse pulvinar blandit commodo. Suspendisse malesuada venenatis ullamcorper. In hac habitasse platea dictumst. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque a erat quis neque sodales hendrerit ac non nibh. Nunc tempus porta lectus, eu eleifend neque blandit quis.
+
+Duis at lorem dolor. Praesent in auctor augue. Suspendisse pharetra suscipit leo, vel ornare diam consectetur in. Nunc vestibulum diam rhoncus tellus ultricies rhoncus. Curabitur hendrerit vel purus vitae ultrices. Vestibulum efficitur elit eget pharetra congue. Aenean porta mauris pellentesque lacus malesuada, eget iaculis justo laoreet. Ut justo elit, rutrum sed varius at, bibendum non libero. Fusce auctor quam nec urna euismod, at egestas nulla posuere. Phasellus ac nunc nec nibh porttitor malesuada sit amet sit amet enim. Donec venenatis laoreet pretium. Vestibulum metus sapien, molestie a arcu eget, tempor blandit lectus.
+
+Donec dapibus sapien et volutpat iaculis. Quisque tincidunt nunc a diam posuere convallis. Donec ut volutpat ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras posuere dui quis mattis varius. Praesent auctor sem vel lacinia posuere. Fusce posuere eget erat non gravida. Nunc eu justo quam. Etiam sit amet mollis turpis. Sed vitae rutrum lectus. Proin ut lobortis ante. Nam varius posuere enim non tristique. Praesent facilisis malesuada orci nec feugiat. In eget ex eget ipsum pretium tincidunt. Etiam mollis tellus eu fermentum tempus.
+
+Ut semper, ipsum in consequat rutrum, mauris quam efficitur sem, vitae volutpat quam nunc eget dolor. Cras facilisis eros quis nisl porta, non tincidunt felis placerat. Aliquam non luctus lorem. Aenean euismod ut leo at ornare. Vivamus non porttitor eros. Mauris ante libero, rutrum ut massa sed, ornare sollicitudin elit. Fusce ut iaculis velit. Morbi a ultrices odio. Sed faucibus porttitor erat sed congue. Sed ornare posuere felis eu suscipit. Suspendisse tempor lorem sed tortor laoreet condimentum. Cras sit amet urna id eros faucibus ultricies sed sed magna. Proin quis erat a turpis lobortis viverra. Curabitur in mollis eros.
