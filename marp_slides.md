@@ -51,3 +51,9 @@ How to work with images:
 - [image syntax](https://marpit.marp.app/image-syntax)
 
 If you can - add a reference to the author or collection.
+
+---
+
+![bg blur:2px](img/pexels-adrien-olichon-2823459.jpg)
+![bg opacity:.7](img/pexels-adrien-olichon-2823459.jpg)
+![bg sepia](img/pexels-adrien-olichon-2823459.jpg)
