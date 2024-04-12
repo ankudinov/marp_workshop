@@ -116,3 +116,33 @@ Where to find gradients and colors:
 ```
 
 ![bg right fit](https://github.com/srl-labs/containerlab/raw/main/docs/images/containerlab_export_white_ink.svg?sanitize=true)
+
+---
+
+# Using List
+
+```markdown
+- item1
+- item2
+```
+
+- item1
+- item2
+
+---
+
+# Animated List
+
+- Some Item
+
+  - subitem
+
+* This will be hidden at first
+
+```markdown
+- Some Item
+
+  - subitem
+
+* This will be hidden at first
+```
