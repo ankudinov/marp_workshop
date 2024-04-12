@@ -104,3 +104,15 @@ Where to find gradients and colors:
 
 - [Uigradients](https://uigradients.com/)
 - [HappyHues](https://www.happyhues.co/)
+
+---
+
+# How To Use Animated Images
+
+- This looks amazing on a starting page
+
+```markdown
+![bg right fit](https://github.com/srl-labs/containerlab/raw/main/docs/images/containerlab_export_white_ink.svg?sanitize=true)
+```
+
+![bg right fit](https://github.com/srl-labs/containerlab/raw/main/docs/images/containerlab_export_white_ink.svg?sanitize=true)
