@@ -28,6 +28,12 @@ style: |
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 1rem;
   }
+  svg[id^="mermaid-"] {
+        min-width: 600px; 
+        max-width: 800px; 
+        min-height: 500px; 
+        max-height: 600px; 
+    }
 
 ---
 # How to Build Marp Slides
@@ -286,3 +292,31 @@ Duis at lorem dolor. Praesent in auctor augue. Suspendisse pharetra suscipit leo
 Donec dapibus sapien et volutpat iaculis. Quisque tincidunt nunc a diam posuere convallis. Donec ut volutpat ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras posuere dui quis mattis varius. Praesent auctor sem vel lacinia posuere. Fusce posuere eget erat non gravida. Nunc eu justo quam. Etiam sit amet mollis turpis. Sed vitae rutrum lectus. Proin ut lobortis ante. Nam varius posuere enim non tristique. Praesent facilisis malesuada orci nec feugiat. In eget ex eget ipsum pretium tincidunt. Etiam mollis tellus eu fermentum tempus.
 
 Ut semper, ipsum in consequat rutrum, mauris quam efficitur sem, vitae volutpat quam nunc eget dolor. Cras facilisis eros quis nisl porta, non tincidunt felis placerat. Aliquam non luctus lorem. Aenean euismod ut leo at ornare. Vivamus non porttitor eros. Mauris ante libero, rutrum ut massa sed, ornare sollicitudin elit. Fusce ut iaculis velit. Morbi a ultrices odio. Sed faucibus porttitor erat sed congue. Sed ornare posuere felis eu suscipit. Suspendisse tempor lorem sed tortor laoreet condimentum. Cras sit amet urna id eros faucibus ultricies sed sed magna. Proin quis erat a turpis lobortis viverra. Curabitur in mollis eros.
+
+---
+
+# Mermaid
+
+DON'T DO THIS!
+
+<div class="mermaid">
+%%{init: { 'theme': 'base', 'gitGraph': {'showBranches': true, 'showCommitLabel':true,'mainBranchName': 'master'}} }%%
+gitGraph
+   commit id: "init"
+   commit id: "update"
+   branch dev
+   commit id: "amazing feature"
+   commit id: "last minute fix"
+   checkout master
+   commit
+   checkout dev
+   merge master
+</div>
+
+---
+
+# The Proper Way to Do Mermaid
+
+- [Mermaid CLI](https://github.com/mermaid-js/mermaid-cli)
+
+![bg left fit](img/mermaid.png)
