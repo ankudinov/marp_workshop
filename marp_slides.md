@@ -113,6 +113,8 @@ Marp community themes:
 
 # Using Community Themes
 
+<style scoped>section {font-size: 24px;}</style>
+
 - Add CSS from some community repos
 - add following VSCode settings:
 
