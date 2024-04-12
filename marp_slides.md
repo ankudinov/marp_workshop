@@ -6,15 +6,26 @@ class: invert
 backgroundImage: "linear-gradient(to bottom, #1e3744, #301B29)"
 # backgroundImage: "linear-gradient(to right, #0f2027, #203a43, #2c5364)"
 # backgroundImage: "linear-gradient(to bottom, #004643, #001e1d)"
+paginate: true
 
 ---
 # How to Build Marp Slides
+
+<!-- Do not add page number on this slide -->
+<!--
+_paginate: false
+-->
 
 Hello World!
 
 ![bg](img/pexels-renato-rocca-9279669.jpg)
 
 ---
+
+<!-- Add footer starting from this slide -->
+<!--
+footer: April 2024
+-->
 
 # Use Cases For Marp
 
@@ -145,4 +156,43 @@ Where to find gradients and colors:
   - subitem
 
 * This will be hidden at first
+```
+
+---
+
+# Paginate
+
+```markdown
+---
+paginate: true
+
+---
+<!-- Do not add page number on this slide -->
+<!--
+_paginate: false
+-->
+
+```
+
+---
+
+# Footer
+
+```markdown
+<!-- Add footer starting from this slide -->
+<!--
+footer: 'April 2024'
+-->
+
+```
+
+---
+
+# Add Image as Footer
+
+```markdown
+<!-- Add footer starting from this slide -->
+<!--
+footer: '![h:20](https://www.arista.com/assets/images/logo/Arista_Logo.png)'
+-->
 ```
