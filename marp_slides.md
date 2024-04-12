@@ -7,6 +7,17 @@ backgroundImage: "linear-gradient(to bottom, #1e3744, #301B29)"
 # backgroundImage: "linear-gradient(to right, #0f2027, #203a43, #2c5364)"
 # backgroundImage: "linear-gradient(to bottom, #004643, #001e1d)"
 paginate: true
+style: |
+  footer {
+    font-size: 14px
+  }
+  section::after {
+    font-family: Brush Script MT;
+    font-size: 14px;
+  }
+  pre {
+    background: linear-gradient(to top, #1e3744, #301B29);
+  }
 
 ---
 # How to Build Marp Slides
@@ -16,9 +27,15 @@ paginate: true
 _paginate: false
 -->
 
-Hello World!
+```json
+{
+  "date": "12.04.2024",
+  "topic": "random things about marp",
+  "author": "Petr Ankudinov"
+}
+```
 
-![bg](img/pexels-renato-rocca-9279669.jpg)
+![bg right](img/pexels-renato-rocca-9279669.jpg)
 
 ---
 
